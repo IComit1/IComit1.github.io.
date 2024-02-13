@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Express Holiday Travel</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    #header {
+      background-color: #3498db;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center; /* Centered alignment */
+    }
+
+    #logo {
+      max-width: 200px;
+      max-height: 200px;
+      margin-right: 20px; /* Added margin for spacing */
+    }
+
+    h1 {
+      color: #2c3e50;
+      margin: 0;
+    }
+
+    #contact-info {
+      padding: 20px;
+    }
+
+    /* Style for the form */
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    form input,
+    form textarea,
+    form button {
+      margin-bottom: 10px;
+      width: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+
+    form button {
+      background-color: #3498db;
+      color: white;
+      cursor: pointer;
+    }
+
+    /* Style for the sidebar */
+    #sidebar {
+      width: 20%;
+      background-color: #34495e;
+      padding: 20px;
+      color: #ecf0f1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    #sidebar a {
+      display: block;
+      color: #ecf0f1;
+      text-decoration: none;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Banner section -->
+  <div id="header">
+    <img id="logo" src="Pictures/Logo.jpeg" alt="Express Holiday Travel Logo">
+    <div>
+      <h1>Contact Us</h1>
+    </div>
+  </div>
+
+  <!-- Sidebar section -->
+  <div id="sidebar">
+    <a href="index.html">Home</a>
+    <a href="Bahamas.html">Bahamas</a>
+    <a href="Paris.html">Paris, France</a>
+    <a href="Alaska.html">Alaska</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <!-- Form section -->
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="comments">Comments:</label>
+    <textarea id="comments" name="comments" rows="4" required></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <!-- Contact information section -->
+  <div id="contact-info">
+    <p>Email: info@expressholidaytravel.com</p>
+    <p>Phone: +1 (123) 456-7890</p>
+  </div>
+</body>
+</html>
